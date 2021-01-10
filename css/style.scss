@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.ani-left{
+    transition: .5s;
+    margin-left: 0rem;
+}
+
+.ani-left:hover{
+    transition: .5s;
+    margin-left: 5rem;
+}
+
+.btn-primary{
+    background-color: #1DD1A1 !important;
+    border: none !important;
+}
+.none-decoration{
+    text-decoration: none !important;
+    color: #333333;
+}
+.none-decoration:hover{
+    color: #333333;
+}
+
+.card-body{
+    height: 10rem !important;
+}
+
+.header{
+    z-index: 99;
+}
+.bg-content{
+    background-image: url('../img/bg-hero.png');
+    background-size: cover;
+    background-position: 0% 100%;
+    height: 55rem;
+    .nav{
+        font-family:  'Kanit', sans-serif;
+    }
+    .green{
+        color: #1DD1A1;
+    }
+    .nav-edit a{
+        font-size: 1.4em;
+        padding: 1rem;
+        text-decoration: none;
+        color: #333333;
+    }
+    
+    .nav-item-edit{
+        padding: 0 1rem !important;
+        font-weight: 600;
+    }
+    .con-info{
+        padding: 20rem 0rem;
+    }
+    .hello-txt{
+        font-size: 4em;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+}
+.bg-slider{
+    height: 45rem;
+    background-color: #CFFEF2;
+    .destiantion-tittle{
+        font-size: 4em !important;
+        color: #333;
+    }
+}
+
+.card-img-top{
+    height: 20rem !important;
+    object-fit: cover;
+}
+
+.sticky{
+    transition: .5s;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.329) -2px 1px 20px;
+}
+.bg-footer{
+    background-color: #176651;
+    height: 13rem;
+}
+.green{
+    color: #1DD1A1;
+}
+.bg-last{
+    background-color: #0B3228;
+    height: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
